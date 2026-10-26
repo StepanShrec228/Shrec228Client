@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "shrec228client",
+  "name": "Shrec228 Client",
+  "version": "${version}",
+  "description": "Shrec228 Custom Mod Client",
+  "authors": [
+    "Shrec228"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.shrec228.Shrec228Client"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "minecraft": "26.1.2",
+    "java": ">=21"
+  }
+}
